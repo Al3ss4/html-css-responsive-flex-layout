@@ -31,10 +31,6 @@ a:hover{
     padding: 50px 50px;
 }
 
-.green{
-    color: #54c688;
-}
-
 
 /* HEADER*/
 
@@ -102,26 +98,81 @@ a:hover{
 /* / DEMO-APP*/
 
 /* CLEAN-CODE*/
-.clean-code{
-    padding: 10px 57px 0;
-}
 
 .clean-code{
     background-color: #caf0db;
     border-radius: 10px;
     padding: 10px 57px 5px;
+    margin-bottom:25px;
 }
 
 .clean-code > *{
     margin: 15px 0px;
 }
 
-.clean-code h2, .clean-code p{
+.clean-code h2, .clean-code p, .green{
     color: #61bb95;
 }
-
-
 /* / CLEAN-CODE*/
 
+/* WEB-DESIGN */
 
+.web-design{
+    background-color: #fed2d1;
+    border-radius: 10px;
+    padding: 10px 57px 5px;
+    margin-bottom:25px;
+}
+.web-design .icon{
+    padding: 0 30px;
+}
+.web-design > *{
+    margin: 15px 0px;
+}
+
+.web-design h2, .web-design p, .pink{
+    color: #fd8b93;
+}
+
+/* / WEB-DESIGN */
+/* DEVELOPMENT */
+
+.development{
+    background-color: #ffe7c3;
+    border-radius: 10px;
+    padding: 10px 57px 5px;
+    margin-bottom:25px;
+}
+.development .icon{
+    padding: 0 30px;
+}
+.development > *{
+    margin: 15px 0px;
+}
+
+.development h2, .development p, .yellow{
+    color: #fec166;
+}
+/* / DEVELOPMENT */
+/* BRANDING */
+
+.branding{
+    background-color: #d5d4f4;
+    border-radius: 10px;
+    padding: 10px 57px 5px;
+    margin-bottom:25px;
+}
+
+.branding > *{
+    margin: 15px 0px;
+}
+
+.branding h2, .branding p, .violet{
+    color: #9e99dc;
+}
+/* / BRANDING */
+.text-demo-section{
+    text-align: center;
+    display: block;
+}
 /* / MAIN */

@@ -31,7 +31,13 @@ a:hover{
     padding: 50px 50px;
 }
 
+h1{
+    font-size: 3rem;
+}
 
+h2{
+    font-weight: bolder;
+}
 /* HEADER*/
 
 .cont-header{
@@ -270,5 +276,43 @@ a:hover{
 
 /* / partners-section */
 
+/* benefit-content */
+.benefit-content{
+    background-color: #9692e6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px 35px;
+}
 
+.benefit-content > *{
+    margin: 20px 20px;
+}
+.benefit-content h2{
+    color: white;
+}
+/* / benefit-content */
+
+/* / benefit-section */
+
+.benefit-section h1, .benefit-section h2, .benefit-section p {
+    color: #9796d1;
+}
+
+.benefit-section .btn{
+    background-color: #9796d1;
+    width: 100px;
+}
+.fbenefit > *, .sbenefit > *, .tbenefit > *, .fourbenefit > *, .fivebenefit > *, .sixbenefit > *{
+    margin: 15px 20px;
+    padding: 14px 0px;
+}
+
+.fbenefit, .sbenefit, .tbenefit, .fourbenefit, .fivebenefit, .sixbenefit{
+    background-color: white;
+    border-radius: 10px;
+}
+/* / benefit-section */
 /* / MAIN */
+
+

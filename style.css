@@ -210,8 +210,65 @@ a:hover{
 }
 /* / planning-section */
 
+/* partners-section */
+
+.partners-content{
+    padding: 50px 20px;
+}
+.partners-section{
+    border-radius: 10px;
+    padding: 10px 57px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.partners-section > *{
+    margin: 15px 0px;
+}
+
+.partners-section h2{
+    color: #9894d8;
+}
+/* / partners-section */
+
+/* profile-content */
+
+#profile-content > *{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.first-profile >*, .second-profile > *, .third-profile > * {
+    margin: 15px 20px;
+}
+.first-profile{
+    background-color:#ffbfbf ;
+    border-radius: 10px;
+    
+}
+.second-profile{
+    background-color:#feddaa ;
+    border-radius: 10px;
+}
+
+.third-profile{
+    background-color:#b2e9ca ;
+    border-radius: 10px;
+}
 
 
+.img-profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+/* / partners-section */
 
 
 /* / MAIN */

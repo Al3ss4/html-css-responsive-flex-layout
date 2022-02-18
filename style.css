@@ -175,4 +175,41 @@ a:hover{
     text-align: center;
     display: block;
 }
+
+/* planning-section */
+
+.planning-section{
+    background-color: #9692e6;
+    padding: 15px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.planning-section > *{
+    margin: 20px 20px;
+}
+
+.planning-section h2, .planning-section p{
+    color: white;
+}
+.img-first-planning{
+    background-color: #bdb5ee;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.img-second-planning{
+    height: 407px;
+    width: 320px;
+    background-color: white;
+    border-radius: 10px;
+}
+/* / planning-section */
+
+
+
+
+
 /* / MAIN */

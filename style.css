@@ -30,6 +30,12 @@ a:hover{
 .container{
     padding: 50px 50px;
 }
+
+.green{
+    color: #54c688;
+}
+
+
 /* HEADER*/
 
 .cont-header{
@@ -54,17 +60,30 @@ a:hover{
     border: 0;
     background-color: transparent;
 }
-
+.icon{
+    padding: 0 56px;
+}
 /* / HEADER*/
 
+/* MAIN */
+
+/* DEMO-APP*/
 
 .demo-app{
     background-color: #b9dbfe;
     border-radius: 10px;
     padding: 10px 57px 0;
 }
+.demo-app .btn{
+    height: 41px;
+    width: 170px;
+}
 .demo-app > *{
     margin: 15px 0px;
+}
+
+.demo-app h2, .demo-app p{
+    color: #1d7bdd;
 }
 
 .img-demo{
@@ -73,3 +92,36 @@ a:hover{
     background-color: white;
     border-radius: 10px;
 }
+
+.demo-app{
+    background-color: #b9dbfe;
+    border-radius: 10px;
+    padding: 10px 57px 0;
+}
+
+/* / DEMO-APP*/
+
+/* CLEAN-CODE*/
+.clean-code{
+    padding: 10px 57px 0;
+}
+
+.clean-code{
+    background-color: #caf0db;
+    border-radius: 10px;
+    padding: 10px 57px 5px;
+}
+
+.clean-code > *{
+    margin: 15px 0px;
+}
+
+.clean-code h2, .clean-code p{
+    color: #61bb95;
+}
+
+
+/* / CLEAN-CODE*/
+
+
+/* / MAIN */

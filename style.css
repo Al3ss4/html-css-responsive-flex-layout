@@ -69,6 +69,10 @@ a:hover{
     background-color: #b9dbfe;
     border-radius: 10px;
     padding: 10px 57px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 .demo-app .btn{
     height: 41px;
@@ -89,12 +93,6 @@ a:hover{
     border-radius: 10px;
 }
 
-.demo-app{
-    background-color: #b9dbfe;
-    border-radius: 10px;
-    padding: 10px 57px 0;
-}
-
 /* / DEMO-APP*/
 
 /* CLEAN-CODE*/
@@ -104,6 +102,9 @@ a:hover{
     border-radius: 10px;
     padding: 10px 57px 5px;
     margin-bottom:25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .clean-code > *{
@@ -122,10 +123,11 @@ a:hover{
     border-radius: 10px;
     padding: 10px 57px 5px;
     margin-bottom:25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.web-design .icon{
-    padding: 0 30px;
-}
+
 .web-design > *{
     margin: 15px 0px;
 }
@@ -142,9 +144,9 @@ a:hover{
     border-radius: 10px;
     padding: 10px 57px 5px;
     margin-bottom:25px;
-}
-.development .icon{
-    padding: 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .development > *{
     margin: 15px 0px;
@@ -182,8 +184,8 @@ a:hover{
     background-color: #9692e6;
     padding: 15px 35px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .planning-section > *{

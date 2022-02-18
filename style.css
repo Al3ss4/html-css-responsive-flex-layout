@@ -9,10 +9,30 @@
     padding: 0;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
 
-/* HEADER*/
+a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color: #0084fd;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
 
 .container{
+    padding: 50px 50px;
+}
+/* HEADER*/
+
+.cont-header{
     background-color: #0084fd;
     padding: 20px 10px;
 }
@@ -36,3 +56,20 @@
 }
 
 /* / HEADER*/
+
+
+.demo-app{
+    background-color: #b9dbfe;
+    border-radius: 10px;
+    padding: 10px 57px 0;
+}
+.demo-app > *{
+    margin: 15px 0px;
+}
+
+.img-demo{
+    height: 350px;
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+}

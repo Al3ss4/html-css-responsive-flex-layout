@@ -38,6 +38,19 @@ h1{
 h2{
     font-weight: bolder;
 }
+
+.text-center{
+    text-align: center;
+    display: block;
+}
+
+.underline{
+    text-decoration-line: underline;
+}
+
+.purple{
+    color: #69627d;
+}
 /* HEADER*/
 
 .cont-header{
@@ -179,10 +192,7 @@ h2{
     color: #9e99dc;
 }
 /* / BRANDING */
-.text-demo-section{
-    text-align: center;
-    display: block;
-}
+
 
 /* planning-section */
 
@@ -347,5 +357,56 @@ h2{
 
 
 /* / MAIN */
+
+/* FOOTER */
+
+/*started-content*/
+
+.started-content{
+    background-color: #9692e6;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    color: white;
+}
+
+.started-content > *{
+    margin: 15px 45px;
+    padding: 10px 0px;
+}
+
+.started-content h1{
+    color: #ffc06b;
+}
+.started-content h4{
+    color: #aeacf6;
+}
+.started-content .btn{
+    width: 250px;
+    color: #a9a6cc;
+    background-color: white;
+}
+.started-content h4{
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
+/* / started-content*/
+
+/* end-content */
+.end-content{
+    background-color: black;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    color: white;
+}
+
+.end-content > *{
+    margin: 15px 45px;
+    padding: 30px 0px;
+}
+/* / end-content */
+/* / FOOTER */
 
 

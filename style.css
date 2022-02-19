@@ -207,8 +207,11 @@ h2{
 .branding{
     background-color: #d5d4f4;
     border-radius: 10px;
-    padding: 10px 60px 5px;
+    padding: 10px 44px 5px;
     margin-bottom:25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .branding > *{
@@ -485,6 +488,34 @@ h2{
             margin-right: 10px;
         }
 
+        .demo-app{
+            width: 66%;
+            display: flex;
+            flex-wrap: nowrap;
+            padding: 0 30px;
+        }
+    
+        .demo-app h2, .demo-app p, .demo-app .btn{
+            padding: 10px 30px;
+        }
+        
+        .clean-code{
+            width: calc(100% - 66%);
+        }
+    
+        .web-design, .development{
+            width: 33%;
+        }
+    
+        .branding{
+            width: calc(100% - 66%);
+        }
+    
+        .demo-app .btn{
+            margin-left: 25px;
+            margin-top: 20px;
+        }
+
     /* media query partners-content */ 
 
         .profile-content > *{
@@ -568,33 +599,7 @@ h2{
         text-align: center;
     } 
 
-    .demo-app{
-        width: 66%;
-        display: flex;
-        flex-wrap: nowrap;
-        padding: 0 30px;
-    }
 
-    .demo-app h2, .demo-app p, .demo-app .btn{
-        padding: 10px 30px;
-    }
-    
-    .clean-code{
-        width: calc(100% - 66%);
-    }
-
-    .web-design, .development{
-        width: 33%;
-    }
-
-    .branding{
-        width: calc(100% - 66%);
-    }
-
-    .demo-app .btn{
-        margin-left: 25px;
-        margin-top: 20px;
-    }
 
 /* media / query active-section */
 }

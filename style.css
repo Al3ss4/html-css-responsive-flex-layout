@@ -268,8 +268,8 @@ h2{
 
 
 .img-profile{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     background-color: white;
 }
@@ -313,6 +313,39 @@ h2{
     border-radius: 10px;
 }
 /* / benefit-section */
+
+/* about-us-content */
+
+.about-us-content{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.about-us-content > *{
+    margin: 15px 0px;
+}
+
+.about-us-content h2, .about-us-content h3{
+    color: #9491d0;
+}
+
+.about-us-content p{
+    line-height: 2rem;
+}
+
+.about-us-content .img-profile{
+    background-color: #b8bab9;
+}
+
+.about-us-content .btn{
+    background-color: #9692e6;
+}
+
+
+/* / about-us-content */
+
+
 /* / MAIN */
 
 

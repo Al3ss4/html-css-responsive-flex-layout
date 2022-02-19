@@ -337,7 +337,7 @@ h2{
     
 }
 
-.benefit-content > *, .allbenefit > *{
+.benefit-content > *, .allbenefit > * {
     margin: 20px 20px;
 }
 .benefit-content h2{
@@ -468,7 +468,7 @@ h2{
 
         /* / header */
 
- 
+        /* demo-section */
         .demo-section{
             margin: 15px auto;
             padding: 0 20px;
@@ -543,13 +543,24 @@ h2{
     }
 
     .benefit-section{
-    margin: 15px auto;
+   
     padding: 0 20px;
     }
-    .allbenefit{
+
+    .benefit-section{
         display: flex;
-        padding: 20px;
+        flex-wrap: wrap;
+        gap: 20px;
     }
+    
+    .fbenefit, .sbenefit, .fourbenefit, .fivebenefit {
+        width: 32%;
+    }
+     .tbenefit, .sixbenefit{
+         width: 31% ;
+    }
+   
+
 
 
     /* / media query benefit-content */
@@ -601,9 +612,155 @@ h2{
 
 
 
-/* media / query active-section */
+ /* media / query active-section */
 }
 
 
 @media screen and (min-width:820px) and (max-width:1180px) {
+
+    /* demo-section */
+    .demo-section{
+        margin: 15px auto;
+        padding: 0 20px;
+    } 
+
+
+    .demo-bot i{
+        font-size: 5rem;
+        
+    }
+    .demo-top, .demo-bot{
+        display: flex;
+    }
+
+    .web-design, .development, .demo-app{
+        margin-right: 10px;
+    }
+
+    .demo-app{
+        display: flex;
+        padding: 0 30px;
+        justify-content: flex-start;
+    }
+    /* .img-demo{
+        margin-left: 20px;
+    } */
+
+    .demo-app h2, .demo-app p, .demo-app .btn{
+        padding: 10px 30px;
+    }
+    
+    .clean-code{
+        width: calc(100% - 66%);
+    }
+
+    .web-design, .development{
+        width: 26%;
+    }
+
+    .branding{
+        width: 25%;
+    }
+   
+    .demo-app .btn{
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+
+    /* media query partners-content */ 
+
+    .profile-content > *{
+        flex-wrap: nowrap;
+    }
+    .first-profile{
+        display: flex;
+    }
+    .profile-content .flex-column{
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .first-profile >*, .second-profile > *, .third-profile > * {
+        padding: 15px 90px;
+        margin: 15px 20px;
+}
+
+/* / media query partners-content */ 
+
+    /* media query benefit-content */
+
+    .text-benefit {
+        font-size: 3rem;
+    }
+
+    .benefit-section{
+   
+        padding: 0 20px;
+    }
+    
+    .benefit-section{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+        
+    .fbenefit, .sbenefit  {
+           width: 48%;
+    }
+    .fourbenefit, .fivebenefit{
+           width: 48%;
+    }
+    .tbenefit, .sixbenefit{
+         width: 48% ;
+    }
+
+
+    /* / media query benefit-content */
+
+  /* media query about-us-content */
+  .about-us-content{
+    display: flex;
+    flex-wrap: nowrap;
+}
+/* / media query about-us-content */
+
+ /* media query active-section */
+ .started-content, .end-content{
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.started-content h1{
+    font-size: 5rem;
+}
+
+.started-content h3{
+    font-size: 3rem;
+}
+.started-content h4, .started-content h3, .started-content p, .end-content p{
+    display: block;
+    text-align: center;
+} 
+
+
+
+/* media / query active-section */
+
+/* media query planning-section  */
+.planning-section{
+    display: flex;
+    flex-direction: column;
+    padding: 0 175px;
+}
+
+.planning-section .flex-row{
+    flex-direction: column;
+   
+}
+.img-second-planning, .img-demo{
+    width: 100%;
+}
+
+
+/*  / media query planning-section  */
 }
